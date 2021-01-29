@@ -1,3 +1,14 @@
 body {
   background-color: #19a2ae;
 }
+
+.main-profile-card {
+  background-color: white;
+  margin: 10% auto 10% auto;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.top-container img {
+  border-radius: 10px 10px 0px 0px;
+}
