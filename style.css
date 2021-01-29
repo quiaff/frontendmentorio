@@ -1,5 +1,14 @@
 body {
   background-color: #19a2ae;
+  font-family: "Kumbh Sans", sans-serif;
+
+  color: #2d3248;
+}
+h3 {
+  margin: 0;
+}
+p {
+  margin: 0;
 }
 
 .main-profile-card {
@@ -11,4 +20,40 @@ body {
 
 .top-container img {
   border-radius: 10px 10px 0px 0px;
+}
+.middle-container {
+  text-align: center;
+}
+.button-container {
+  border-top: 0.2px solid #969696;
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.button-container p {
+  color: #969696;
+  letter-spacing: 2px;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.followers {
+  display: inline-block;
+  margin: 20px;
+}
+
+.likes {
+  display: inline-block;
+  margin: 20px;
+}
+
+.photos {
+  display: inline-block;
+  margin: 20px;
+}
+
+.age {
+  font-weight: 400;
+  color: #969696;
 }
