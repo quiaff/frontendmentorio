@@ -18,15 +18,33 @@ p {
   border-radius: 10px;
 }
 
-.top-container img {
+.pattern-card {
   border-radius: 10px 10px 0px 0px;
 }
 .middle-container {
   text-align: center;
+  margin-top: 60px;
 }
+
+.middle-container p {
+  color: #969696;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.perfil-photo {
+  border-radius: 50%;
+  position: absolute;
+  background-color: white;
+  padding: 5px;
+  right: 600px;
+  left: 630px;
+  top: 220px;
+}
+
 .button-container {
-  border-top: 0.2px solid #969696;
-  margin-top: 40px;
+  border-top: 1px solid rgb(150, 150, 150, 0.2);
+  margin-top: 25px;
   text-align: center;
   padding-top: 15px;
 }
@@ -56,4 +74,5 @@ p {
 .age {
   font-weight: 400;
   color: #969696;
+  margin-left: 5px;
 }
