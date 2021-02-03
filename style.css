@@ -2,9 +2,10 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   color: #2d3248;
   background-color: #19a2ae;
-  background-image: url(images/bg-pattern-top.svg);
-  background-repeat: no-repeat;
-  background-position: -300px -530px;
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left -330px top -550px, right -250px bottom -670px;
 }
 
 h3 {
