@@ -1,9 +1,12 @@
 body {
-  background-color: #19a2ae;
   font-family: "Kumbh Sans", sans-serif;
-
   color: #2d3248;
+  background-color: #19a2ae;
+  background-image: url(images/bg-pattern-top.svg);
+  background-repeat: no-repeat;
+  background-position: -300px -530px;
 }
+
 h3 {
   margin: 0;
 }
@@ -37,9 +40,9 @@ p {
   position: absolute;
   background-color: white;
   padding: 5px;
-  right: 600px;
-  left: 630px;
-  top: 220px;
+  right: 45%;
+  left: 46%;
+  top: 35%;
 }
 
 .button-container {
