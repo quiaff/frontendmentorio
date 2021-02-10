@@ -5,7 +5,50 @@ body {
   background-image: url(images/bg-pattern-top.svg),
     url(images/bg-pattern-bottom.svg);
   background-repeat: no-repeat, no-repeat;
-  background-position: left -330px top -550px, right -250px bottom -670px;
+  background-position: left -780px top -600px, right -750px bottom -630px;
+}
+
+.main-profile-card {
+  background-color: white;
+  margin: 30% auto 30% auto;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.perfil-photo {
+  border-radius: 50%;
+  position: absolute;
+  background-color: white;
+  padding: 5px;
+  right: 45%;
+  left: 38%;
+  top: 33%;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-image: url(images/bg-pattern-top.svg),
+      url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left -500px top -550px, right -250px bottom -670px;
+  }
+
+  .main-profile-card {
+    background-color: white;
+    margin: 10% auto 10% auto;
+    width: 350px;
+    border-radius: 10px;
+  }
+
+  .perfil-photo {
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    padding: 5px;
+    right: 45%;
+    left: 46%;
+    top: 35%;
+  }
 }
 
 h3 {
@@ -13,13 +56,6 @@ h3 {
 }
 p {
   margin: 0;
-}
-
-.main-profile-card {
-  background-color: white;
-  margin: 10% auto 10% auto;
-  width: 350px;
-  border-radius: 10px;
 }
 
 .pattern-card {
@@ -34,16 +70,6 @@ p {
   color: #969696;
   font-size: 12px;
   margin-top: 10px;
-}
-
-.perfil-photo {
-  border-radius: 50%;
-  position: absolute;
-  background-color: white;
-  padding: 5px;
-  right: 45%;
-  left: 46%;
-  top: 35%;
 }
 
 .button-container {
